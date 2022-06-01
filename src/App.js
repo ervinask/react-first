@@ -4,6 +4,7 @@ import "normalize.css";
 import Hero from "./components/Hero/Hero";
 import Button from "./components/Button/Button";
 import Section from "./components/Section/Section";
+import Article from "./components/Article/Article";
 
 function App() {
   return (
