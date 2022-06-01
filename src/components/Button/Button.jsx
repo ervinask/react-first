@@ -5,6 +5,7 @@ const Button = ({ type, children, color, handleClick }) => {
   const bold = {
     background: "red",
     color: "white",
+    borderColor: "red",
   };
 
   const outline = {
@@ -13,7 +14,11 @@ const Button = ({ type, children, color, handleClick }) => {
   };
 
   return (
-    <button style={color === "bold" ? bold : outline} type={type}>
+    <button
+      type={type}
+      style={color === "outline" ? bold : outline}
+      onClick={handleClick}
+    >
       {children}
     </button>
   );

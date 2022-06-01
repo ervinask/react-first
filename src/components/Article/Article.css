@@ -1,0 +1,12 @@
+article {
+  border: 1px solid black;
+}
+
+.title-2 {
+  border-bottom: 1px solid black;
+  padding: 0 1rem;
+}
+
+.text {
+  padding: 0 2rem;
+}
