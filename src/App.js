@@ -8,7 +8,9 @@ function App() {
   return (
     <div>
       <Hero title="Title" subtitle="This is subtitle..." />
-      <Button children={"ate"} type="button" />
+      <Button type="button" color="bold">
+        Ate
+      </Button>
     </div>
   );
 }
